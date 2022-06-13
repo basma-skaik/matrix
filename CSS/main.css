@@ -1,0 +1,452 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+/*Start landing*/
+.landing{
+    background-image: url(../imgs/header9909.jpg);
+    background-size: cover;
+    height: 700px;
+    margin-left: -10px ;
+    margin-right: -10px ;
+    margin-top: -10px;
+    position: relative;
+}
+/*Start header*/
+.header{
+    margin: 2px 0;
+}
+.header h3{
+    display: inline-block;
+    color: white;
+}
+.header li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+.header li a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+.header li a:hover{
+    color: rgba(0, 195, 255, 0.884);
+}
+.header ul{
+    display: inline-block;
+    margin: 0 200px;
+}
+.header i{
+    padding-right: 15px;
+    color: white;
+}
+/*End header*/
+.landing .intro-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.landing .intro-text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+ .landing .intro-text hr{  
+    display: inline-block;
+    width: 80px;
+    border-bottom: 3px solid rgba(0, 195, 255, 0.884);
+    text-align: center;
+}
+.landing .intro-text p{
+    width: 300px;
+    color: white;
+    font-size: 10px;
+    line-height: 1.5em;
+    padding-left: 75px;
+}
+.landing .intro-text #button{
+    display: inline-block;
+    color: white;
+    width: auto;
+    padding: 6px 13px;    
+    border: 2px solid white;
+}
+/*End landing*/
+
+/*Start about*/
+.about{
+    padding: 50px 0;
+}
+.about .about-content{
+    margin-top: 70px;
+}
+.about .container .background-heading{
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 60px;
+    background: #1da1f2;
+    transform: rotate(-7deg);
+    margin: auto;
+}
+.about .container .background-heading h2{
+    position: absolute;
+    left: 40px;
+    background-color: transparent;
+    transform: rotate(7deg);
+}
+ 
+.about .container .about-content .image{
+    position: relative;
+}
+.about .container .about-content .cover{
+    background-color: #1da1f2;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    float: left;
+    margin-right: 30px;
+
+}
+.about .container .about-content .image img{
+    position: absolute;
+    width: 300px;
+    left: 40px;
+    top: 40px;
+}
+.about .container .about-content .text{
+    overflow: auto;
+    padding-left: 50px;
+}
+.about .container .about-content .text p{
+    color: gray;
+    font-size: small;
+}
+.about .container .about-content .text .first-text h3{
+    margin-top: -3px;
+    margin-bottom: 4px
+}
+.about .container .about-content .text .first-text hr{  
+    display: inline-block;
+    width: 40px;
+    border-bottom: 3px solid rgba(0, 195, 255, 0.884);
+    text-align: left;
+    margin-left: 5px;
+}
+.about .container .about-content .text .secound-text{
+    line-height: 1.8em;
+    margin: 40px 0;
+    padding-left: 20px;
+    border-left: 3px solid rgba(0, 195, 255, 0.884);
+}
+.about .container .about-content .text .secound-text h3{
+    display: inline;
+}
+.about .container .about-content .text .secound-text p{
+    display: inline;
+}
+.about .container .about-content .text .third-text{
+    display: inline-block;
+    width: auto;
+    padding: 0px 25px;    
+    border: 2px solid black;
+}
+.about .container .about-content .text .third-text p{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+/*End about*/
+
+/*Start under about*/
+.under-about .container{
+    display: flex;   
+}
+.under-about .container .box{
+    width: 33%;
+    text-align: center;
+    margin: 20px;
+}
+.under-about .container .box .cover{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-flex;/*بتشبه الinline-block*/
+    justify-content: center;/*بتنصف افقي*/
+    align-items: center;/*بتنصف عمودي*/
+    border: 2px solid #1da1f2;
+}
+.under-about .container .box .cover i{
+    position: absolute;
+    margin-bottom: 20px;
+    color: rgba(0, 195, 255, 0.884);
+    font-size: 30px;
+    top: 20px;
+}
+
+.under-about .container .box p{
+    margin-top: 20px;
+    color: gray;
+    font-size: small;
+}
+/*End under about*/
+
+/*Start Recent works*/
+.Recent-works{
+    margin-top: 70px;
+}
+.Recent-works .background-heading{
+    position: relative;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background: #1da1f2;
+    transform: rotate(-7deg);
+    margin: auto;
+}
+.Recent-works .background-heading h2{
+    position: absolute;
+    left: 40px;
+    background-color: transparent;
+    transform: rotate(7deg);
+}
+.Recent-works li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+.Recent-works li a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+.Recent-works li a:hover{
+    color: rgba(0, 195, 255, 0.884);
+}
+.Recent-works ul{
+    display: inline-block;
+    margin: 50px 400px;
+}
+.Recent-works .images-01{
+    display: flex;
+    border: 0px;
+    margin: -10px;
+    padding: 0px;
+}
+.Recent-works .images-02{
+    display: flex;
+    border: 0px;
+    margin: 0 -10px -10px;
+    padding: 0px;
+}
+.Recent-works .images-01 .img1,
+.Recent-works .images-01 .img2,
+.Recent-works .images-01 .img3,
+.Recent-works .images-01 .img4
+{
+    width: 25%;
+}
+
+.Recent-works .images-02 .img5,
+.Recent-works .images-02 .img6,
+.Recent-works .images-02 .img7,
+.Recent-works .images-02 .img8{
+    width: 25%;
+}
+/*End Recent works*/
+
+/*Start our news*/
+.our-news .container{
+    margin-bottom: 120px;
+}
+.our-news .container .background-heading{
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 60px;
+    background: #1da1f2;
+    transform: rotate(-7deg);
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.our-news .container .background-heading h2{
+    position: absolute;
+    left: 40px;
+    background-color: transparent;
+    transform: rotate(7deg);
+}
+.our-news .container .our-news-content{
+    display: flex;
+    overflow: auto;
+}
+.our-news .container .our-news-content .box{
+    width: 33%;
+    margin: 0px 20px;
+}
+.our-news .container .our-news-content .box img{
+    width: 100%;
+}
+.our-news .container .our-news-content .box .img10{
+    height: 280px;
+}
+.our-news .container .our-news-content .box .title{
+    margin: 5px 0px;
+    font-size: large;
+}
+.our-news .container .our-news-content .box .title:hover{
+    color: rgba(0, 195, 255, 0.884);
+}
+.our-news .container .our-news-content .box .date{
+    margin: 0px 0px 20px 0px;
+    color: gray;
+    font-size: smaller;
+}
+.our-news .container .our-news-content .box .text{
+    color: gray;
+    font-size: small;
+}
+/*End our news*/
+
+/*Start full img*/
+.full-img {
+    background-image: url(../imgs/evang.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-left: -10px ;
+    margin-right: -10px ;
+    margin-top: -10px;
+    margin-bottom: 120px;
+    position: relative;
+}
+.full-img .full-content {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    color: rgba(0, 195, 255, 0.884);
+}
+.full-img .full-content i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.full-img .full-content p{
+    color: white;
+    font-size: small;
+}
+.full-img .full-content .dashed h2{
+    display: inline;
+    float: right;
+    color: rgba(0, 195, 255, 0.884);
+    margin-bottom: -10px;
+}
+.full-img .full-content .dashed p{
+    display: inline;
+    float: right;
+}
+/*End full img*/
+
+/*Start footer*/
+.footer{
+    background-color: rgb(41, 39, 39);
+    padding: 70px 0;
+    margin: -10px;
+}
+.footer .container{
+    display: flex;
+    color: rgb(207, 203, 203);
+}
+ .footer .box h3{
+    color: white;
+}
+.footer .box{
+    width: 25%;
+    margin-right: 30px;
+}
+.footer .container .box p{
+    line-height: 1.5em;
+    font-size: smaller;
+}
+.footer .container .box .icons p{
+    display: inline-block;
+    padding-left: 10px;
+}
+.footer .container .box .icons .pakg{
+    margin: -20px 0px;
+}
+.footer .container .box .img{
+    display: flex;
+    overflow: auto;
+}
+.footer .container .box .img img{
+    width: 70px;
+    height: 70px;
+}
+.footer .container .box .img p{
+    display: inline-block;
+    line-height: 1.5em;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+/* .footer .container .box .img p:hover{
+    color: rgba(0, 195, 255, 0.884);
+} */
+.footer .container .box .img span{
+    display: inline;
+}
+ /* .footer .container .box .img span:hover{ /*بس اذا اجى علبهاالماوس بتصير ابيض بدي اذا اجى الماس ع كلهم تصير اللي فةق لحال ازرق و اللي تحت ابيض*/
+    /*color: white;/*not child css, not css*//*
+}  */
+.footer .footer-gallary img{
+    width: 70px;
+    margin: -2px;
+}
+.footer .box .last-box{
+    background-color: transparent;
+    width: 100%;
+    border-color: transparent;
+    border-bottom: 2px solid white;
+}
+.footer .box .social{
+    display: flex;
+    padding-left: 0;
+}
+.footer .box .social li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer .box .social li a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;/*بتشبه الinline-block*/
+    justify-content: center;/*بتنصف افقي*/
+    align-items: center;/*بتنصف عمودي*/
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.footer .box .social .twitter:hover{
+    background-color: #1da1f2;
+}
+.footer .box .social .dribbble:hover{
+    background-color: rgb(223, 94, 137);
+}
+.footer .box .social .facebook:hover{
+    background-color: #1877f2;
+}
+.footer .box .social .invision:hover{
+    background-color: #ff0000;
+}
+/*End footer*/
